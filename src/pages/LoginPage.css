@@ -1,0 +1,31 @@
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+.login_page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 38rem;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greeting {
+    max-width: 26rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    display: contents;
+    text-align: center;
+}
